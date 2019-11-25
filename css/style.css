@@ -1,0 +1,79 @@
+body {
+  font-family: Aril, Helvetica, sans-serif;
+  background-color: ;
+}
+
+* {
+  box-sizing: border-box;
+}
+h1{
+  color: #4CAF50;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Add padding to containers */
+.container {
+    width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+  padding: 5px;
+  background-color: white;
+  align-items: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+
+/* Full-width input fields */
+input[type=email], input[type=text], input[type=password], input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.loginbtn, .registerbtn {
+  background-color: #4CAF50;
+  font-weight: bold;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.loginbtn:hover, .registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
